@@ -1,0 +1,87 @@
+#first-div {
+  position: relative;
+  font-size: 16px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 5px 5px 15px gray;
+  margin: auto;
+  padding-left: 13px;
+}
+
+img {
+  width: 30%;
+  padding-top: 13px;
+}
+
+h4 {
+  position: relative;
+  font-size: 16px;
+  color: #00b084;
+  left: 460px;
+  bottom: 215px;
+  padding: 13px;
+}
+
+a {
+  left: 200px;
+  bottom: 270px;
+  padding: 13px;
+  font-size: 18px;
+  position: relative;
+}
+
+a[href^="https://www.google.rs/"]
+{
+  color: #8d62e3;
+}
+
+a[href^="https://www.google.rs/"]:hover
+{
+  color: #6748a4;
+}
+
+a[href^="https://www.wikipedia.org/"]:visited
+{
+  color: #00539b;
+}
+
+#second-div {
+  position: relative;
+  display: block;
+}
+
+h2 {
+  color: #00b084;
+  transform: translateY(-110px);
+}
+
+p {
+  transform: translateY(-110px);
+}
+
+p:nth-child(2) {
+  background-color: #f2f2f2;
+}
+
+p:nth-child(3) {
+  background-color: #e6f2ff;
+}
+
+p:nth-child(4) {
+  background-color: #f2f2f2;
+}
+
+span p {
+  position: relative;
+  left: 460px;
+  width: 44px;
+  background-color: #00b084;
+}
+
+span p::after {
+  content: "6.1.2021";
+  font-size: 20px;
+  padding: 13px;
+  color: #00b084;
+  display: flexbox;
+}
